@@ -1,0 +1,21 @@
+﻿@model DataAccess.Entities.Car
+
+<div class="text-center">
+    <div class="card">
+        <div class="card-header">
+                Product Detail Information
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">@Model.Brand.Name</h5>
+            <h6 class="card-text">@Model.Model</h6>
+            <p class="card-title">Color: @Model.Color.Name</p>
+            <p class="card-title">Car Type: @Model.CarType.Name</p>
+            <p class="card-title">Fuel Type: @Model.FuelType.Name</p>
+            <p class="card-title">Country: @Model.Country.Name</p>
+            <p class="card-title">Region: @Model.Region.Name</p>
+            <p class="card-title">Description: @Model.Description</p>
+            <span class="badge bg-primary">@Model.Price$</span>
+            <a asp-action="Index" class="btn btn-dark">Back</a>
+        </div>
+    </div>
+</div>

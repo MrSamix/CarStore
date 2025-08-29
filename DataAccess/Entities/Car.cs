@@ -17,6 +17,7 @@ namespace DataAccess.Entities
         public int RegionId { get; set; }
         public int FuelTypeId { get; set; }
         public string? Description { get; set; }
+        public double Price { get; set; }
 
         // conn
         public Brand Brand { get; set; }

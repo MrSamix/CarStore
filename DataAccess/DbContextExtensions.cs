@@ -80,7 +80,8 @@ namespace DataAccess
                     FuelTypeId = 1,
                     CountryId = 1,
                     RegionId = 1,
-                    Description = "A reliable sedan."
+                    Description = "A reliable sedan.",
+                    Price = 24000
                 },
                 new Car
                 {
@@ -92,7 +93,8 @@ namespace DataAccess
                     FuelTypeId = 2,
                     CountryId = 1,
                     RegionId = 1,
-                    Description = "A popular pickup truck."
+                    Description = "A popular pickup truck.",
+                    Price = 30000
                 },
                 new Car
                 {
@@ -104,7 +106,8 @@ namespace DataAccess
                     FuelTypeId = 4,
                     CountryId = 3,
                     RegionId = 3,
-                    Description = "A luxury SUV."
+                    Description = "A luxury SUV.",
+                    Price = 59999.99
                 },
                 new Car
                 {
@@ -116,7 +119,8 @@ namespace DataAccess
                     FuelTypeId = 1,
                     CountryId = 4,
                     RegionId = 4,
-                    Description = "A compact hatchback."
+                    Description = "A compact hatchback.",
+                    Price = 15000
                 },
                 new Car
                 {
@@ -128,7 +132,8 @@ namespace DataAccess
                     FuelTypeId = 1,
                     CountryId = 5,
                     RegionId = 5,
-                    Description = "A budget-friendly sedan."
+                    Description = "A budget-friendly sedan.",
+                    Price = 7000
                 },
                 new Car
                 {
@@ -140,7 +145,8 @@ namespace DataAccess
                     FuelTypeId = 2,
                     CountryId = 5,
                     RegionId = 6,
-                    Description = "A reliable hatchback."
+                    Description = "A reliable hatchback.",
+                    Price = 12000
                 },
                 new Car
                 {
@@ -152,7 +158,8 @@ namespace DataAccess
                     FuelTypeId = 1,
                     CountryId = 2,
                     RegionId = 2,
-                    Description = "A best-selling sedan."
+                    Description = "A best-selling sedan.",
+                    Price = 20000
                 }
             );
         }

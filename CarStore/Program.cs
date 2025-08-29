@@ -5,9 +5,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<CarDb>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("DB")));
 
 var app = builder.Build();
-builder.Services.AddDbContext<CarDb>(opt => opt.UseSqlServer(builder.Configuration.GetConnectionString("DB")));
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
