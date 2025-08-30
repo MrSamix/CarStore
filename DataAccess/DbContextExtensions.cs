@@ -81,7 +81,8 @@ namespace DataAccess
                     CountryId = 1,
                     RegionId = 1,
                     Description = "A reliable sedan.",
-                    Price = 24000
+                    Price = 24000,
+                    ImageUrl = @"https://imgd.aeplcdn.com/1920x1080/n/cw/ec/192443/camry-exterior-right-front-three-quarter-14.jpeg?isig=0&q=80&q=80"
                 },
                 new Car
                 {
@@ -94,7 +95,8 @@ namespace DataAccess
                     CountryId = 1,
                     RegionId = 1,
                     Description = "A popular pickup truck.",
-                    Price = 30000
+                    Price = 30000,
+                    ImageUrl = @"https://d2v1gjawtegg5z.cloudfront.net/posts/preview_images/000/015/499/original/2024_Ford_F-150.jpg?1725030127"
                 },
                 new Car
                 {
@@ -107,7 +109,8 @@ namespace DataAccess
                     CountryId = 3,
                     RegionId = 3,
                     Description = "A luxury SUV.",
-                    Price = 59999.99
+                    Price = 59999.99,
+                    ImageUrl = @"https://cdn.riastatic.com/photosnewr/auto/newauto_landing_photos/bmw-x5__5102-1920x1080x90.jpg"
                 },
                 new Car
                 {
@@ -120,7 +123,8 @@ namespace DataAccess
                     CountryId = 4,
                     RegionId = 4,
                     Description = "A compact hatchback.",
-                    Price = 15000
+                    Price = 15000,
+                    ImageUrl = @"https://upload.wikimedia.org/wikipedia/commons/c/c6/Renault_Clio_V_%282023%29_1X7A1577.jpg"
                 },
                 new Car
                 {
@@ -133,7 +137,8 @@ namespace DataAccess
                     CountryId = 5,
                     RegionId = 5,
                     Description = "A budget-friendly sedan.",
-                    Price = 7000
+                    Price = 7000,
+                    ImageUrl = @"https://i.infocar.ua/i/12/707/1400x936.jpg"
                 },
                 new Car
                 {
@@ -146,7 +151,8 @@ namespace DataAccess
                     CountryId = 5,
                     RegionId = 6,
                     Description = "A reliable hatchback.",
-                    Price = 12000
+                    Price = 12000,
+                    ImageUrl = @"https://www.automoli.com/common/vehicles/_assets/img/gallery/f129/opel-astra-k.jpg"
                 },
                 new Car
                 {
@@ -159,7 +165,8 @@ namespace DataAccess
                     CountryId = 2,
                     RegionId = 2,
                     Description = "A best-selling sedan.",
-                    Price = 20000
+                    Price = 20000,
+                    ImageUrl = @"https://upload.wikimedia.org/wikipedia/commons/0/06/2020_Toyota_Corolla_LE_standard_front%2C_5.25.19.jpg"
                 }
             );
         }

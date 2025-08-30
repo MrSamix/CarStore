@@ -29,3 +29,18 @@ body {
 .form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
   text-align: start;
 }
+
+.image-card {
+    border-radius: 4px 4px 0 0;
+}
+.image-details{
+    height: 200px;
+    object-fit: contain;
+    align-self: center;
+}
+
+.image-details:hover {
+    transform: rotateX(360deg);
+    transform: rotateY(360deg);
+    transition: transform ease-in-out 2s;
+}

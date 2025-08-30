@@ -18,6 +18,7 @@ namespace DataAccess.Entities
         public int FuelTypeId { get; set; }
         public string? Description { get; set; }
         public double Price { get; set; }
+        public string? ImageUrl { get; set; }
 
         // conn
         public Brand Brand { get; set; }

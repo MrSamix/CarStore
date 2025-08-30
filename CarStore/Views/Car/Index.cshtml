@@ -12,15 +12,16 @@
         {
                     <div class="col">
                         <div class="card">
-                            <div class="card-body">
-                                <h5 class="card-title">@car.Brand.Name</h5>
-                                <p class="card-text">@car.Model 
-                                    <span class="badge bg-primary">@car.Price$</span>
-                                </p>
-                                <a asp-action="Details" asp-route-id="@car.Id"><i class="bi bi-info-lg fs-5"></i></a>
-                                <a asp-action="Edit" asp-route-id="@car.Id"><i class="bi bi-pencil text-warning fs-5"></i></a>
-                                <a asp-action="Delete" asp-route-id="@car.Id"><i class="bi bi-trash text-danger fs-5"></i></a>
-                            </div>
+                            <img class="image-card" src="@(car.ImageUrl ?? "https://img.freepik.com/premium-vector/no-photo-available-vector-icon-default-image-symbol-picture-coming-soon-web-site-mobile-app_87543-18055.jpg")" alt="Car Photo" />
+                                <div class="card-body">
+                                    <h5 class="card-title">@car.Brand.Name</h5>
+                                    <p class="card-text">@car.Model 
+                                        <span class="badge bg-primary">@car.Price$</span>
+                                    </p>
+                                    <a asp-action="Details" asp-route-id="@car.Id"><i class="bi bi-info-lg fs-5"></i></a>
+                                    <a asp-action="Edit" asp-route-id="@car.Id"><i class="bi bi-pencil text-warning fs-5"></i></a>
+                                    <a asp-action="Delete" asp-route-id="@car.Id"><i class="bi bi-trash text-danger fs-5"></i></a>
+                                </div>
                         </div>
                     </div>
         }
